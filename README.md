@@ -11,24 +11,24 @@
 ### :rocket: Installation
 For Chrome:
 
-Open Google Chrome and navigate to `chrome://extensions/`
-Enable "Developer mode" in the top right corner
-Click "Load unpacked" and select the directory containing the extension files
+* Open Google Chrome and navigate to `chrome://extensions/`
+* Enable "Developer mode" in the top right corner
+* Click "Load unpacked" and select the directory containing the extension files
 
 For Brave:
 
-Open Brave and go to `brave://extensions/`
-Enable "Developer mode" in the top right corner
-Click "Load unpacked" and select the directory containing the extension files
+* Open Brave and go to `brave://extensions/`
+* Enable "Developer mode" in the top right corner
+* Click "Load unpacked" and select the directory containing the extension files
 
 ### :gear: Usage
 
-After installation, open [x.com](https://x.com) (formerly Twitter) in your browser
-Log in to your X account
-Click on the extension icon in your browser toolbar
-From the extension menu, click on "Download"
-This will generate and download a config.json file
-Use this `config.json` file with Tweet4Tweet
+* After installation, open [x.com](https://x.com) (formerly Twitter) in your browser
+* Log in to your X account
+* Click on the extension icon in your browser toolbar
+* From the extension menu, click on "Download"
+* This will generate and download a `config.json` file
+* Use this `config.json` file with Tweet4Tweet
 
 ---
 
@@ -45,6 +45,7 @@ _*Christian Ascone*_
 
 > You can follow me on
 [GitHub](https://github.com/christianascone)
+[Twitter/X](https://x.com/christianascone)
 
 ---
 
