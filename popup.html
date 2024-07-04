@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweet4Tweet Configuration</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .container {
+        text-align: center;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+      }
+      #downloadBtn {
+        background-color: #7cb342;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+      }
+      #downloadBtn:hover {
+        background-color: #45a049;
+      }
+      #clearBtn {
+        background-color: #64b5f6;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+      }
+      #clearBtn:hover {
+        background-color: #45a049;
+      }
+      #errorMessage {
+        color: #d32f2f;
+        margin-top: 1rem;
+      }
+      #errorMessage a {
+        color: #1976d2;
+        text-decoration: none;
+      }
+      #errorMessage a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="icon.png" width='50'/>
+      <h1>Tweet4Tweet</h1>
+      <div id="content"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
