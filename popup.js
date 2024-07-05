@@ -56,7 +56,7 @@ function handleDownload() {
       user_id: items.user_id,
       cookies: items.cookies,
     };
-    downloadJSON(object, "chrome_extension_data.json");
+    downloadJSON(object, "config.json");
   });
 }
 
