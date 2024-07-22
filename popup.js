@@ -48,7 +48,6 @@ function createButton(id, text, clickHandler) {
 function handleDownload() {
   chrome.storage.local.get(null, function (items) {
     const object = {
-      license_key: "REPLACE_WITH_KEY",
       db_url: "booster.sqlite",
       cache_url: "cache.sqlite",
       bearer: items.bearer,
