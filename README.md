@@ -1,6 +1,6 @@
 # **:triangular_flag_on_post: Tweet4Tweet-Chrome-Extension**
 
-![project version](https://img.shields.io/badge/project-0.0.3-brightgreen.svg)
+![project version](https://img.shields.io/badge/project-0.1.0-brightgreen.svg)
 
 > Chrome/Brave extension to help set up Tweet4Tweet
 
@@ -34,7 +34,7 @@ For Brave:
 
 ### **:scroll: Release history**
 
-* 0.0.3
+* 0.1.0
     * CHANGE: project icon
     * REFACTOR: remove unused permissions
     * BREAKING CHANGE: remove license key placeholder
