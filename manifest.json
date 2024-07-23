@@ -3,13 +3,7 @@
   "name": "Tweet4Tweet Configuration",
   "version": "0.0.2",
   "description": "Read X cookies to download configuration file for Tweet4Tweet",
-  "permissions": [
-    "cookies",
-    "webRequest",
-    "activeTab",
-    "webRequestAuthProvider",
-    "storage"
-  ],
+  "permissions": ["cookies", "webRequest", "activeTab", "storage"],
   "host_permissions": ["https://x.com/*"],
   "background": {
     "service_worker": "background.js"
