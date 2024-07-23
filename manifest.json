@@ -5,12 +5,10 @@
   "description": "Read X cookies to download configuration file for Tweet4Tweet",
   "permissions": [
     "cookies",
-    "declarativeNetRequest",
     "webRequest",
-    "webRequestAuthProvider",
     "activeTab",
+    "webRequestAuthProvider",
     "storage",
-    "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": ["https://x.com/*"],
   "background": {
