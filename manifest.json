@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tweet4Tweet Configuration",
   "version": "0.0.2",
-  "description": "Read cookies from the current tab",
+  "description": "Read X cookies to download configuration file for Tweet4Tweet",
   "permissions": [
     "cookies",
     "declarativeNetRequest",
