@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Tweet4Tweet Configuration",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read X cookies to download configuration file for Tweet4Tweet",
   "permissions": ["cookies", "webRequest", "activeTab", "storage"],
   "host_permissions": ["https://x.com/*"],
